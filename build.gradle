@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.sudharsan.selenium'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile (group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59')
+}
